@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.car-form {
+    width: 500px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.car-list .panel {
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-list p {
+    font-size: 1.5rem;
+}
+
+.car-list .no-cars {
+    font-style: italic;
+    display: block;
+    margin: 20px;
+}
+
+.total {
+    font-size: 2.5rem;
+}
+
+.error {
+    color: red;
+}
+.button.is-link {
+    background-color: blue; 
+    color: white;
+    padding: auto;
+    border-radius: 6px;
+   margin:2px;
+}
+
+.button.is-danger {
+    background-color: red; 
+    color: white;
+    border-radius: 5px;
+    margin:5px;
+    width:60px;
+}
+.container{
+border-radius:10px;
+background: rgba(234, 231, 231, 0.782);
+}
+.input{
+padding:10px;
+width:450px;
+border-radius:5px;
+}
+.button is-link{
+margin: 50px;
+}
